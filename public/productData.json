@@ -1,0 +1,152 @@
+[
+    {
+        "id": "prod_001",
+        "name": "Pro Resume Builder",
+        "description": "Create professional resumes instantly with industry-standard templates and AI-powered suggestions.",
+        "price": 49.99,
+        "period": "one-time",
+        "tag": "best seller",
+        "tagType": "highlight",
+        "features": [
+            "100+ templates",
+            "ATS optimization",
+            "Export to PDF"
+        ],
+        "icon": "https://i.ibb.co.com/wZrfHghX/portfolio.png"
+    },
+    {
+        "id": "prod_002",
+        "name": "Team Collaboration Suite",
+        "description": "All-in-one collaboration tools for teams including chat, file sharing, and projects.",
+        "price": 29.99,
+        "period": "monthly",
+        "tag": "popular",
+        "tagType": "status",
+        "features": [
+            "Unlimited users",
+            "Cloud storage",
+            "Real-time editing"
+        ],
+        "icon": "https://i.ibb.co.com/wZrfHghX/portfolio.png"
+    },
+    {
+        "id": "prod_003",
+        "name": "Cloud Backup Pro",
+        "description": "Secure cloud backups for all your devices with automatic scheduling.",
+        "price": 99.99,
+        "period": "yearly",
+        "tag": "new",
+        "tagType": "release",
+        "features": [
+            "Auto backups",
+            "256-bit encryption",
+            "Restore anytime"
+        ],
+        "icon": "https://i.ibb.co.com/wZrfHghX/portfolio.png"
+    },
+    {
+        "id": "prod_004",
+        "name": "AI Writing Assistant",
+        "description": "Advanced AI tools to generate content, proofread, and optimize text for clarity.",
+        "price": 19.99,
+        "period": "monthly",
+        "tag": "best seller",
+        "tagType": "highlight",
+        "features": [
+            "Grammar check",
+            "AI suggestions",
+            "SEO optimization"
+        ],
+        "icon": "https://i.ibb.co.com/wZrfHghX/portfolio.png"
+    },
+    {
+        "id": "prod_005",
+        "name": "Fitness Tracker Premium",
+        "description": "Track workouts, nutrition, and health metrics with detailed analytics.",
+        "price": 79.00,
+        "period": "yearly",
+        "tag": "popular",
+        "tagType": "status",
+        "features": [
+            "Custom plans",
+            "Progress reports",
+            "Wearable sync"
+        ],
+        "icon": "https://i.ibb.co.com/wZrfHghX/portfolio.png"
+    },
+    {
+        "id": "prod_006",
+        "name": "E-Learning Masterclass Pass",
+        "description": "Access 500+ courses across tech, business, and creative subjects.",
+        "price": 199.00,
+        "period": "yearly",
+        "tag": "best seller",
+        "tagType": "highlight",
+        "features": [
+            "Lifetime access",
+            "Certificates",
+            "Expert instructors"
+        ],
+        "icon": "https://i.ibb.co.com/wZrfHghX/portfolio.png"
+    },
+    {
+        "id": "prod_007",
+        "name": "Secure VPN Ultimate",
+        "description": "Fast and private internet with global server access and no logs.",
+        "price": 12.99,
+        "period": "monthly",
+        "tag": "new",
+        "tagType": "release",
+        "features": [
+            "Kill switch",
+            "Global servers",
+            "No logs"
+        ],
+        "icon": "https://i.ibb.co.com/wZrfHghX/portfolio.png"
+    },
+    {
+        "id": "prod_008",
+        "name": "Graphic Design Toolkit",
+        "description": "Professional design software with templates, brushes, and export options.",
+        "price": 59.99,
+        "period": "one-time",
+        "tag": "popular",
+        "tagType": "status",
+        "features": [
+            "Template library",
+            "Vector tools",
+            "Export options"
+        ],
+        "icon": "https://i.ibb.co.com/wZrfHghX/portfolio.png"
+    },
+    {
+        "id": "prod_009",
+        "name": "Kids Learning App",
+        "description": "Interactive educational app designed for children ages 3–10.",
+        "price": 4.99,
+        "period": "monthly",
+        "tag": "best seller",
+        "tagType": "highlight",
+        "features": [
+            "Games & quizzes",
+            "Progress tracking",
+            "Safe environment"
+        ],
+        "icon": "https://i.ibb.co.com/wZrfHghX/portfolio.png"
+    },
+    {
+        "id": "prod_010",
+        "name": "Business Email Suite",
+        "description": "Professional email hosting with calendar, contacts, and advanced security.",
+        "price": 5.99,
+        "period": "monthly",
+        "tag": "popular",
+        "tagType": "status",
+        "features": [
+            "Custom domain",
+            "Spam protection",
+            "Mobile sync"
+        ],
+        "icon": "https://i.ibb.co.com/wZrfHghX/portfolio.png"
+    }
+]

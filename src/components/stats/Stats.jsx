@@ -2,7 +2,7 @@ import React from 'react';
 
 const Stats = () => {
     return (
-        <div className='relative z-20 bg-linear-to-r from-[#4F39F6]  to-[#9514FA]'>
+        <div className='relative z-20 bg-linear-to-r from-[#4F39F6]  to-[#9514FA] my-15 '>
             <div className='container mx-auto px-10 flex flex-wrap items-center justify-center gap-15 md:gap-20 '>
                 <div className='flex items-center gap-15 py-10'>
                     <div className='text-white space-y-3'>
