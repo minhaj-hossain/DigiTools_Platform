@@ -1,11 +1,12 @@
 import React from 'react';
 import { CiShoppingCart } from 'react-icons/ci';
+import Button from '../ui/Button';
 
 const Navbar = () => {
     return (
-        <div className=" bg-base-100  shadow-sm">
-            <div className='navbar container mx-auto'>
-                <div className="navbar-start">
+        <div className=" bg-base-100  shadow-sm ">
+            <div className='navbar container mx-auto '>
+                <div className="navbar-start ">
                     <div className="dropdown md:hidden">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
@@ -33,9 +34,9 @@ const Navbar = () => {
                     <div className=' hidden md:flex items-center gap-4 '>
                         <CiShoppingCart className='text-2xl' />
                         <p className='font-semibold text-[#101727]'>Login</p>
-
                     </div>
-                    <a className="btn bg-linear-to-r from-[#4F39F6]  to-[#9514FA] rounded-full text-white font-semibold hover:from-[#4f39f6c7]  hover:to-[#9614fac4] hover:translate-0.5 transition-all duration-300">Get Started</a>
+                    <Button Text="Get Started" />
+                    
                 </div>
             </div>
 
