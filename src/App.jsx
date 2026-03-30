@@ -7,6 +7,7 @@ import Stats from './components/stats/Stats'
 import { ToastContainer } from 'react-toastify'
 import Steps from './components/sarted/Steps'
 import Pricing from './components/sarted/Pricing'
+import Explore from './components/sarted/Explore'
 
 
 
@@ -38,6 +39,7 @@ function App() {
 
       <Steps />
       <Pricing />
+      <Explore />
 
 
 

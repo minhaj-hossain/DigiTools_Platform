@@ -10,7 +10,7 @@ const Pricing = () => {
                     <p className='text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
                 </header>
 
-                <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+                <section className='grid grid-cols-1 text-center md:text-left md:grid-cols-2 lg:grid-cols-3 gap-5'>
 
                     {/* basic */}
                     <div className='bg-[#f9fafc] space-y-6 p-6 rounded-2xl border border-[#f2f2f2] flex flex-col justify-between' >
@@ -36,7 +36,7 @@ const Pricing = () => {
                     </div>
 
                     {/* pro  */}
-                    <div className='bg-[#f9fafc] space-y-6 p-6 rounded-2xl border border-[#f2f2f2]  bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white flex flex-col justify-between' >
+                    <div className='bg-[#f9fafc] space-y-6 p-6 rounded-2xl border border-[#f2f2f2]  bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white flex flex-col justify-between ' >
                         <div className='space-y-6'>
                             <div className='space-y-2'>
                                 <h4 className='font-bold text-2xl '>pro</h4>
