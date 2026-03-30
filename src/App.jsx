@@ -5,6 +5,9 @@ import Main from './components/main/Main'
 import Navbar from './components/navbar/Navbar'
 import Stats from './components/stats/Stats'
 import { ToastContainer } from 'react-toastify'
+import Steps from './components/sarted/Steps'
+import Pricing from './components/sarted/Pricing'
+
 
 
 const fetchData = async () => {
@@ -33,7 +36,11 @@ function App() {
         setBtn={setBtn} />
 
 
-      
+      <Steps />
+      <Pricing />
+
+
+
 
       <ToastContainer />
 

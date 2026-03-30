@@ -13,7 +13,7 @@ const CartedProduct = ({ product, cart, setCart }) => {
         const newCart = cart.filter(elem => elem.id !== id)
 
         setCart([...newCart])
-        toast.success("Cart deleted successfully.")
+        toast.success("Product deleted successfully.")
 
     }
 

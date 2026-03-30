@@ -1,6 +1,5 @@
 import React from 'react';
 import CartedProduct from '../ui/CartedProduct';
-import Button from '../ui/Button';
 import { toast } from 'react-toastify';
 
 const Cart = ({ cart, setCart }) => {
@@ -9,7 +8,7 @@ const Cart = ({ cart, setCart }) => {
 
     const handleProceed = () => {
         setCart([])
-        toast.success('Product purchase successfully.')
+        toast.success('Product purchased successfully.')
     }
 
     return (
