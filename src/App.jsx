@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar cart={cart} />
       <Banner />
       <Stats />
 
@@ -32,6 +32,8 @@ function App() {
         btn={btn}
         setBtn={setBtn} />
 
+
+      
 
       <ToastContainer />
 

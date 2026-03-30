@@ -1,5 +1,6 @@
-import React, { use, useState } from 'react';
+import React, { use } from 'react';
 import Card from '../ui/Card';
+import Cart from '../cart/Cart';
 
 const Main = ({ btn, setBtn, productData, cart, setCart }) => {
 
@@ -27,7 +28,7 @@ const Main = ({ btn, setBtn, productData, cart, setCart }) => {
 
                     <button
                         onClick={() => setBtn('Cart')}
-                        className={`${btn === 'Cart' ? ' bg-linear-to-r from-[#4F39F6]  to-[#9514FA]  text-white font-semibold hover:from-[#4f39f6c7]  hover:to-[#9614fac4] hover:shadow-[0_3px_8px_0_rgba(97,7,236,0.3)] transition-all duration-300' : ' font-medium text-[#25065d]'} btn rounded-full px-6`}>Cart({cart.length}) </button>
+                        className={`${btn === 'Cart' ? ' bg-linear-to-r from-[#4F39F6]  to-[#9514FA]  text-white font-semibold hover:from-[#4f39f6c7]  hover:to-[#9614fac4] hover:shadow-[0_3px_8px_0_rgba(97,7,236,0.3)] transition-all duration-300' : ' font-medium text-[#25065d]'} btn rounded-full px-6`}>Cart <span className={` ${cart.length > 0 ? 'block' : 'hidden'} `}>({cart.length})</span> </button>
 
 
                 </div>
@@ -35,7 +36,7 @@ const Main = ({ btn, setBtn, productData, cart, setCart }) => {
 
             <section className='pt-15'>
 
-                <div className='grid grid-cols-3 gap-4'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                     {
                         btn === 'Products' && data.map((product) => <Card
                             cart={cart}
@@ -47,7 +48,15 @@ const Main = ({ btn, setBtn, productData, cart, setCart }) => {
 
                 <div>
                     {
-                        btn === 'Cart' && <div className='text-center h-50 border border-[#f2f2f2] rounded-2xl text-2xl flex items-center justify-center  text-[#10172758]'><span>Your cart is empty.</span></div>
+                        btn === 'Cart' && cart.length === 0 && (
+                            <div className='text-center h-50 border border-[#f2f2f2] rounded-2xl text-2xl flex items-center justify-center  text-[#10172758]'>
+                                <span>Your cart is empty.</span>
+                            </div>
+                        )
+                    }
+
+                    {
+                        btn === 'Cart' && cart.length > 0 && (<Cart cart={cart} setCart={setCart} />)
                     }
                 </div>
 

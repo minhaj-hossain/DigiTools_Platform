@@ -5,13 +5,9 @@ import { toast } from 'react-toastify';
 const Card = ({ product, cart, setCart }) => {
 
     const { name, description, price, period, tag, tagType, features, icon } = product;
-    
     const [buyNow, setBuyNow] = useState(false)
 
-
-
     const handleBuyNow = (product) => {
-
 
         const alreadyInCart = cart.find(item => item.id === product.id);
 
@@ -28,7 +24,17 @@ const Card = ({ product, cart, setCart }) => {
 
     return (
         <div className='relative border border-[#f2f2f2] rounded-2xl p-6 space-y-4'>
-            <div className="badge relative"></div>
+            {
+                tagType === 'highlight' && <div className="badge right-2 top-2 absolute py-1.5 px-3 bg-[#fef3c6] rounded-full font-medium text-[14px] capitalize text-[#bb4d00]">{tag}</div>
+            }
+            {
+                tagType === 'status' && <div className="badge right-2 top-2 absolute py-1.5 px-3 bg-[#e1e7ff] rounded-full font-medium text-[14px] "> <span className='bg-linear-to-r from-[#4F39F6]  to-[#9514FA] bg-clip-text text-transparent capitalize'>{tag}</span></div>
+            }
+
+            {
+                tagType === 'release' && <div className="badge right-2 top-2 absolute py-1.5 px-3 bg-[#dbfce7] rounded-full font-medium text-[14px] capitalize text-[#0a883e]">{tag}</div>
+            }
+
 
             <div className='p-4 rounded-full border border-[#f2f2f2] w-fit'>
                 <img src={icon} alt={name} />

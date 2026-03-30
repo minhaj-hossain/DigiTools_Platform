@@ -2,7 +2,7 @@ import React from 'react';
 import { CiShoppingCart } from 'react-icons/ci';
 import Button from '../ui/Button';
 
-const Navbar = () => {
+const Navbar = ({ cart }) => {
     return (
         <div className=" bg-base-100  shadow-sm ">
             <div className='navbar container mx-auto '>
@@ -32,11 +32,16 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end flex items-center cursor-pointer gap-4">
                     <div className=' hidden md:flex items-center gap-4 '>
-                        <CiShoppingCart className='text-2xl' />
+                        <div className='relative'>
+                            <CiShoppingCart className='text-2xl' />
+                            <span className={`absolute ${cart.length > 0 ? 'block' : 'hidden'} -top-2 -right-2 bg-[#4F39F6] text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center`}>
+                                {cart.length}
+                            </span>
+                        </div>
                         <p className='font-semibold text-[#101727]'>Login</p>
                     </div>
                     <Button Text="Get Started" />
-                    
+
                 </div>
             </div>
 
