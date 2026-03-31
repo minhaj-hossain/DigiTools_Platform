@@ -61,10 +61,10 @@ const Footer = () => {
 
                 </div>
 
-                <div className=' flex justify-between items-center border-t border-gray-700 py-3 px-3 sm:px-0'>
-                    <p className='text-center text-sm text-gray-500'>© 2026 Digitools. All rights reserved.</p>
+                <div className=' grid grid-cols-1 sm:flex   sm:justify-between sm:items-center border-t border-gray-700 py-3 px-3 sm:px-0'>
+                    <p className='text-center text-sm text-gray-500 '>© 2026 Digitools. All rights reserved.</p>
 
-                    <div className='space-x-5 text-sm text-gray-500'>
+                    <div className='space-x-5 text-sm  text-gray-500 text-center sm:text-left'>
                         <span>Privacy Policy</span>
                         <span>Terms of Service</span>
                         <span>Cookies</span>

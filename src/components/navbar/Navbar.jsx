@@ -40,7 +40,7 @@ const Navbar = ({ cart }) => {
                         </div>
                         <p className='font-semibold text-[#101727]'>Login</p>
                     </div>
-                    <Button Text="Get Started" />
+                    <Button width='hidden sm:block' Text="Get Started" />
 
                 </div>
             </div>
