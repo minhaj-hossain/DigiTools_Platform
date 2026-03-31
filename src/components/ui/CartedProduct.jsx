@@ -18,8 +18,8 @@ const CartedProduct = ({ product, cart, setCart }) => {
     }
 
     return (
-        <div className='flex justify-between items-center bg-[#f9fafc] p-5 mb-4 rounded-2xl'>
-            <div className='flex gap-5'>
+        <div className='flex flex-wrap gap-8 justify-between items-center bg-[#f9fafc] p-5 mb-4 rounded-2xl'>
+            <div className='flex gap-5 '>
                 <div className='w-15 h-15 p-2 flex justify-center items-center rounded-full border border-[#f2f2f2]'>
                     <img src={icon} alt={name} />
                 </div>
