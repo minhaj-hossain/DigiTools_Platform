@@ -15,7 +15,9 @@ const Steps = () => {
                 </header>
 
                 <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-                    <div className="card border-2 border-[#f1f1f1] rounded-2xl p-6 relative ">
+                    <div className="card border-2 border-[#f1f1f1] rounded-2xl p-6 relative transition-all duration-300 ease-in-out 
+            hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-[1.02] 
+            group cursor-pointer">
 
                         <div className=' absolute top-3 right-3 flex justify-center items-center bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white hover:translate-0.5 transition-transform duration-300 font-bold text-[14px] p-4 rounded-full h-4 w-4'><span>01</span></div>
                         <div className="card-body space-y-4 flex flex-col items-center justify-center">
@@ -26,7 +28,9 @@ const Steps = () => {
                             <p className='text-[#627382] text-center'>Sign up for free in seconds. No credit card required to get started.</p>
                         </div>
                     </div>
-                    <div className="card border-2 border-[#f1f1f1] rounded-2xl p-6 relative ">
+                    <div className="card border-2 border-[#f1f1f1] rounded-2xl p-6 relative transition-all duration-300 ease-in-out 
+            hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-[1.02] 
+            group cursor-pointer">
 
                         <div className=' absolute top-3 right-3 flex justify-center items-center bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white hover:translate-0.5 transition-transform duration-300 font-bold text-[14px] p-4 rounded-full h-4 w-4'><span>01</span></div>
                         <div className="card-body space-y-4 flex flex-col items-center justify-center">
@@ -37,7 +41,9 @@ const Steps = () => {
                             <p className='text-[#627382] text-center'>Browse our catalog and select the toolsthat fit your needs.</p>
                         </div>
                     </div>
-                    <div className="card border-2 border-[#f1f1f1] rounded-2xl p-6 relative ">
+                    <div className="card border-2 border-[#f1f1f1] rounded-2xl p-6 relative transition-all duration-300 ease-in-out 
+            hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-[1.02] 
+            group cursor-pointer">
 
                         <div className=' absolute top-3 right-3 flex justify-center items-center bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white hover:translate-0.5 transition-transform duration-300 font-bold text-[14px] p-4 rounded-full h-4 w-4'><span>01</span></div>
                         <div className="card-body space-y-4 flex flex-col items-center justify-center">

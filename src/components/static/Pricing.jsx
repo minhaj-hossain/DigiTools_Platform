@@ -13,7 +13,9 @@ const Pricing = () => {
                 <section className='grid grid-cols-1 text-center md:text-left md:grid-cols-2 lg:grid-cols-3 gap-5 px-3 sm:px-0'>
 
                     {/* basic */}
-                    <div className='bg-[#f9fafc] space-y-6 p-6 rounded-2xl border border-[#f2f2f2] flex flex-col justify-between' >
+                    <div className='bg-[#f9fafc] space-y-6 p-6 rounded-2xl border border-[#f2f2f2] flex flex-col justify-between transition-all duration-300 ease-in-out 
+            hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-[1.02] 
+            group cursor-pointer' >
                         <div className='space-y-6'>
                             <div className='space-y-2'>
                                 <h4 className='font-bold text-2xl text-[#101727]'>Starter</h4>
@@ -36,7 +38,9 @@ const Pricing = () => {
                     </div>
 
                     {/* pro  */}
-                    <div className='relative bg-[#f9fafc] space-y-6  p-6 rounded-2xl border border-[#f2f2f2]  bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white flex flex-col justify-between ' >
+                    <div className='relative bg-[#f9fafc] space-y-6  p-6 rounded-2xl border border-[#f2f2f2]  bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white flex flex-col justify-between transition-all duration-300 ease-in-out 
+            hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-[1.02] 
+            group cursor-pointer' >
 
                         <div className='absolute -top-4 right-[39%] md:right-[35%] text-[14px] font-medium text-[#bb4d00] rounded-full py-1.5 px-3 bg-[#fef3c6]'>
                             Most Popular
@@ -66,7 +70,9 @@ const Pricing = () => {
                     </div>
 
                     {/* Enterprise */}
-                    <div className='bg-[#f9fafc] space-y-6 p-6 rounded-2xl border border-[#f2f2f2] flex flex-col justify-between' >
+                    <div className='bg-[#f9fafc] space-y-6 p-6 rounded-2xl border border-[#f2f2f2] flex flex-col justify-betweentransition-all duration-300 ease-in-out 
+            hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-[1.02] 
+            group cursor-pointer' >
                         <div className='space-y-6'>
                             <div className='space-y-2'>
                                 <h4 className='font-bold text-2xl text-[#101727]'>Enterprise</h4>

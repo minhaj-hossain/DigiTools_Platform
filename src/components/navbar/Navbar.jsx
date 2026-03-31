@@ -34,7 +34,7 @@ const Navbar = ({ cart }) => {
                     <div className=' hidden md:flex items-center gap-4 '>
                         <div className='relative'>
                             <CiShoppingCart className='text-2xl' />
-                            <span className={`absolute ${cart.length > 0 ? 'block' : 'hidden'} -top-2 -right-2 bg-[#4F39F6] text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center`}>
+                            <span className={`absolute ${cart.length > 0 ? 'block' : 'hidden'} -top-2 -right-2 bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center`}>
                                 {cart.length}
                             </span>
                         </div>

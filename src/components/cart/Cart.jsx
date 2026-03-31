@@ -12,7 +12,7 @@ const Cart = ({ cart, setCart }) => {
     }
 
     return (
-        <section className='p-10 border border-[#f2f2f2] rounded-2xl'>
+        <section className='p-10 border border-[#f2f2f2] rounded-2xl mb-10'>
 
             <h2 className='font-bold text-2xl text-[#101727] mb-4'>Your Cart</h2>
 

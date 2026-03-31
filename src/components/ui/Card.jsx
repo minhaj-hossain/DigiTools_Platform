@@ -23,7 +23,9 @@ const Card = ({ product, cart, setCart }) => {
     }
 
     return (
-        <div className='relative border border-[#f2f2f2] rounded-2xl p-6 space-y-4'>
+        <div className='relative border border-[#f2f2f2] rounded-2xl p-6 space-y-4 transition-all duration-300 ease-in-out 
+            hover:-translate-y-2 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-[1.02] 
+            group cursor-pointer'>
             {
                 tagType === 'highlight' && <div className="badge right-2 top-2 absolute py-1.5 px-3 bg-[#fef3c6] rounded-full font-medium text-[14px] capitalize text-[#bb4d00]">{tag}</div>
             }
@@ -36,7 +38,7 @@ const Card = ({ product, cart, setCart }) => {
             }
 
 
-            <div className='p-4 rounded-full border border-[#f2f2f2] w-fit'>
+            <div className='w-15 h-15 p-2 flex justify-center items-center rounded-full border border-[#f2f2f2]'>
                 <img src={icon} alt={name} />
             </div>
             <div className='space-y-4'>

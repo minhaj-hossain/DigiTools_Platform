@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className='space-y-20 bg-[#101727] '>
 
             <div className='container mx-auto pt-25'>
-                <div className='text-white flex gap-10 flex-wrap px-3 sm:px-0 mb-15'>
+                <div className='text-white flex gap-10 xl:gap-20 flex-wrap px-3 sm:px-0 mb-15'>
 
                     <div className=' space-y-4 text-center sm:text-left'>
                         <h3 className='font-black  text-3xl lg:text-5xl'>DigiTools</h3>
@@ -51,7 +51,7 @@ const Footer = () => {
                     <div className='space-y-4'>
                         <h3 className='font-medium text-[20px]'>Company</h3>
 
-                        <div className='flex gap-4'>
+                        <div className='flex gap-4 cursor-pointer'>
                             <div className=' w-7 h-7 flex items-center justify-center rounded-full bg-white'><FaGithub color='black' /></div>
                             <div className=' w-7 h-7 flex items-center justify-center rounded-full bg-white'><FaFacebook color='black' /></div>
                             <div className=' w-7 h-7 flex items-center justify-center rounded-full bg-white'><BsTwitterX color='black' /></div>
