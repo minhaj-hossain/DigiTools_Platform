@@ -10,10 +10,10 @@ const Pricing = () => {
                     <p className='text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
                 </header>
 
-                <section className='grid grid-cols-1 text-center md:text-left md:grid-cols-2 lg:grid-cols-3 gap-5 px-3 sm:px-0'>
+                <section className='grid grid-cols-1 text-left md:grid-cols-2 lg:grid-cols-3 gap-5 px-3 sm:px-0'>
 
                     {/* basic */}
-                    <div className='bg-[#f9fafc] space-y-6 p-6 rounded-2xl border border-[#f2f2f2] flex flex-col justify-between transition-all duration-300 ease-in-out 
+                    <div className='bg-[#f9fafc] space-y-6 p-6 rounded-2xl border border-[#f2f2f2]   transition-all duration-300 ease-in-out 
             hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-[1.02] 
             group cursor-pointer' >
                         <div className='space-y-6'>
@@ -38,7 +38,7 @@ const Pricing = () => {
                     </div>
 
                     {/* pro  */}
-                    <div className='relative bg-[#f9fafc] space-y-6  p-6 rounded-2xl border border-[#f2f2f2]  bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white flex flex-col justify-between transition-all duration-300 ease-in-out 
+                    <div className='relative bg-[#f9fafc] space-y-6  p-6 rounded-2xl border border-[#f2f2f2]  bg-linear-to-r from-[#4f39f6] to-[#9514fa] text-white  transition-all duration-300 ease-in-out 
             hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-[1.02] 
             group cursor-pointer' >
 
@@ -70,7 +70,7 @@ const Pricing = () => {
                     </div>
 
                     {/* Enterprise */}
-                    <div className='bg-[#f9fafc] space-y-6 p-6 rounded-2xl border border-[#f2f2f2] flex flex-col justify-betweentransition-all duration-300 ease-in-out 
+                    <div className='bg-[#f9fafc] space-y-6 p-6 rounded-2xl border border-[#f2f2f2] transition-all duration-300 ease-in-out 
             hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-[1.02] 
             group cursor-pointer' >
                         <div className='space-y-6'>
