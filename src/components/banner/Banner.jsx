@@ -5,7 +5,7 @@ import bannerImg from '../../assets/banner.png'
 
 const Banner = () => {
     return (
-        <div className='container  relative z-50 mx-auto mt-12'>
+        <div className='container  relative z-50 mx-auto mt-12 px-3 sm:px-0'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
                 <div className="left-banner flex items-center">
                     <div className='left-container space-y-4 flex flex-col justify-center items-center text-center md:text-left md:block'>

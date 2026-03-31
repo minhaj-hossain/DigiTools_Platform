@@ -44,9 +44,12 @@ const Card = ({ product, cart, setCart }) => {
                 <p className='text-[#627382] mt-2 line-clamp-2'>{description}</p>
                 <p className='text-[#627382]'><span className='font-bold text-2xl text-[#101727]'>${price.toFixed(2)}</span>/{period}</p>
             </div>
-            {
-                features.map((feature, index) => <p key={index} className='text-[#627382] mt-2 flex items-center gap-2'><span className='text-green-500'>✓</span>{feature}</p>)
-            }
+            <div>
+                {
+                    features.map((feature, index) => <p key={index} className='text-[#627382] flex items-center gap-2'><span className='text-green-500'>✓</span>{feature}</p>)
+                }
+
+            </div>
 
 
 

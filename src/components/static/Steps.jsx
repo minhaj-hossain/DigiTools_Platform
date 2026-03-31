@@ -8,7 +8,7 @@ const Steps = () => {
     return (
 
         <section className='bg-[#f9fafc] py-25'>
-            <div className='container mx-auto'>
+            <div className='container mx-auto px-3 sm:px-0'>
                 <header className='space-y-4 text-center mb-10'>
                     <h3 className='font-extrabold text-3xl lg:text-5xl text-[#101727]'>Get Started in 3 Steps</h3>
                     <p className='text-[#627382]'>Start using premium digital tools in minutes, not hours.</p>

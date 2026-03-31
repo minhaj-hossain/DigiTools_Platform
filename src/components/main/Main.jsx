@@ -10,7 +10,7 @@ const Main = ({ btn, setBtn, productData, cart, setCart }) => {
     // console.log(data);
 
     return (
-        <section className='container mx-auto space-y-1.5'>
+        <section className='container mx-auto space-y-1.5 px-3 sm:px-0'>
 
             {/* main header  */}
             <div className='text-center flex flex-col items-center gap-5 '>
