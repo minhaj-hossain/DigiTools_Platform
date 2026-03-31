@@ -19,7 +19,7 @@ const Navbar = ({ cart }) => {
                             <li><a>Item 3</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost min-h-15 font-extrabold text-4xl bg-linear-to-r from-[#4F39F6]  to-[#9514FA] bg-clip-text text-transparent">DigiTools</a>
+                    <a className="btn btn-ghost min-h-15 font-extrabold text-3xl md:text-4xl bg-linear-to-r from-[#4F39F6]  to-[#9514FA] bg-clip-text text-transparent">DigiTools</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-semibold text-black/90">

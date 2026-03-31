@@ -14,7 +14,7 @@ const Main = ({ btn, setBtn, productData, cart, setCart }) => {
 
             {/* main header  */}
             <div className='text-center flex flex-col items-center gap-5 '>
-                <h3 className=' font-extrabold text-5xl text-[#101727]'>Premium Digital Tools</h3>
+                <h3 className=' font-extrabold text-3xl md:text-5xl text-[#101727]'>Premium Digital Tools</h3>
                 <p className='text-[#627382] max-w-120 '>Choose from our curated collection of premium digital products designedto boost your productivity and creativity.</p>
             </div>
 

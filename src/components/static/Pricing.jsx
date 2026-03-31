@@ -42,7 +42,7 @@ const Pricing = () => {
             hover:-translate-y-1 hover:shadow-2xl hover:shadow-purple-200/50 hover:scale-[1.02] 
             group cursor-pointer' >
 
-                        <div className='absolute -top-4 right-[39%] md:right-[35%] text-[14px] font-medium text-[#bb4d00] rounded-full py-1.5 px-3 bg-[#fef3c6]'>
+                        <div className='absolute -top-4 right-[35%] md:right-[35%] text-[14px] font-medium text-[#bb4d00] rounded-full py-1.5 px-3 bg-[#fef3c6]'>
                             Most Popular
                         </div>
                         <div className='space-y-6'>
